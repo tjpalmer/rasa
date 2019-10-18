@@ -24,9 +24,9 @@ Getting Credentials
       that is said.
    4. Make sure **trigger when** is set to value
       **first word matches a trigger word exactly**.
-   5. The callback url needs to be your ngrok url where you
+   5. The callback url needs to be either your localhost address for Rasa, or your ngrok url where you
       have your webhook running in Core or your public address, e.g.
-      ``http://test.example.com/webhooks/mattermost/webhook``.
+      ``http://test.example.com/webhooks/mattermost/webhook`` or ``http://localhost:5005/webhooks/mattermost/webhook``.
 
 
 For more detailed steps, visit the
@@ -43,6 +43,9 @@ run script, e.g. using:
    rasa run
 
 you need to supply a ``credentials.yml`` with the following content:
+
+**Remember the user value is the actual username of your bot user, not displayname**
+
 
 .. code-block:: yaml
 
