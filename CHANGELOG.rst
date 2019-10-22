@@ -63,12 +63,15 @@ Changed
   save operations.
 - Event brokers are now also passed to custom tracker stores (using the ``event_broker`` parameter)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Updated the Mattermost connector documentation to be more clear about the user connection details
 =======
 - Don't run the Rasa Docker image as ``root``.
 - Use multi-stage builds to reduce the size of the Rasa Docker image.
 - Updated the ``/status`` api route to use the actual model file location instead of the ``tmp`` location.
 >>>>>>> 00273f4c917b0106fdcd4c18fc8433764d14ab54
+=======
+>>>>>>> 380b132fc9661c3ca856fec2602d3238a4035a27
 
 Removed
 -------
