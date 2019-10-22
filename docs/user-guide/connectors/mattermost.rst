@@ -44,15 +44,13 @@ run script, e.g. using:
 
 you need to supply a ``credentials.yml`` with the following content:
 
-**Remember the user value is the actual username of your bot user, not displayname**
-
 
 .. code-block:: yaml
 
    mattermost:
      url: "https://chat.example.com/api/v4"
      team: "community"
-     user: "user@user.com"
+     user: "user@user.com" #  actual username of your bot user, not displayname
      pw: "password"
      webhook_url: "https://server.example.com/webhooks/mattermost/webhook"
 
